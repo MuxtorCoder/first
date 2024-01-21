@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.big {
+    margin: 50px;
+    max-width: 1500px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a{
+    display: inline-block;
+}
+.lazzat {
+    background-image: url(chef.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    padding: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.links {
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin-top: 30px;
+    margin: 50px;
+}
+.a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    transition: 0.5s;
+}
+.a:hover {
+  background-color: silver;
+
+}
+.p1 {
+    line-height: 1.6;
+}
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.btn {
+    margin-top: 15px;
+}
+.btn1 {
+    background-color: #E4A45D;
+    color: white;
+    border: none;
+    padding: 5px;
+
+}
+.btn2 {
+    background-color: #7ED6DF;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.red {
+    background-color: #FF7979;
+    color: white;
+    border: none;
+    padding: 5px; 
+}
+.lime {
+    background-color: #BADC58;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.h2 {
+    margin-top: 15px;
+}
+.button {
+    text-align: center;
+    margin-top: 50px ;
+}
+.bt1 {
+    padding: 12px;
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    transition: 0.2s all linear;
+    
+}
+.bt1:hover{
+    background-color: magenta;
+    color: white;
+    border: 2px solid magenta;
+}
+.box {
+    width: 31%;
+    row-gap: 25px;
+    margin-bottom: 25px;
+}
+.footer {
+    background-image: url(subscribe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px;
+    margin-top: 25px;
+}
+.img {
+    width: 100%;
+}
+.input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 350px;
+}
+.but {
+    font-size: 15px;
+    padding: 8px 15px;
+    background-color: #EB4D4A;
+    border: none;
+    color: white;
+    margin-left: 15px;
+}
+.min {
+    text-align: center;
+}
+.nav {
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media  (max-width:1140px) {
+    .box {
+        width: 31%;
+    }
+}
+
+
+@media  (max-width:960px) {
+    .box {
+        width: 49%;
+    }
+}
+
+@media  (max-width:700px) {
+    .box {
+        width: 100%;
+    }
+}
